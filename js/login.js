@@ -22,9 +22,11 @@ console.log("clicked");
 
     // step -4 : verify email and password
     if(email == 'tirahman105@gmail.com' && pass == '123456'){
-        console.log('valid user');
+        // console.log('valid user');
+        window.location.href = 'bank.html';
     } else{
-        console.log("invalid user");
+        // console.log("invalid user");
+        alert('You forgot your email or password');
     }
 
 })
